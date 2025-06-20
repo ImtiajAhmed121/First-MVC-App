@@ -1,0 +1,44 @@
+
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+/* Sticky footer for Solar theme */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #002b36; /* Solar theme's base */
+}
+
+main {
+    flex: 1;
+}
+
+/* Optional: improve footer appearance */
+footer {
+    padding: 1rem 0;
+    text-align: center;
+}
